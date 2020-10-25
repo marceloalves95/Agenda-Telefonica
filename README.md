@@ -21,6 +21,9 @@ dependencies {
 ```
 Inclua também no `Android Manifest`as seguintes linhas:
 ```xml
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<!-- outras linhas -->
  <provider
       android:name="androidx.core.content.FileProvider"
       android:authorities="nome do seu pacote.fileprovider"
