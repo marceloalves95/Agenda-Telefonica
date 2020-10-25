@@ -11,6 +11,7 @@
 ```groovy
 dependencies {
     
+    //Implementação das Bibliotecas usadas neste projeto
     implementation 'com.github.santalu:mask-edittext:1.0.2'
     implementation 'com.itextpdf:itextg:5.5.10'
     implementation 'pub.devrel:easypermissions:3.0.0'
