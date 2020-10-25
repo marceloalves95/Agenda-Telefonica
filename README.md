@@ -9,7 +9,6 @@ A figura abaixo mostra as principais telas do aplicativo e as que estão em cons
 |:---:|:---:|
 | **TELA INICIAL DO APLICATIVO** | **TELA COM A ÁREA DE CADASTRO DA PESSOA**  |
 |![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/listar_pessoas.png) |![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/atualizar_pessoas.png)  |
-|:---:|:---:|
 | **TELA COM A LISTA DE PESSOAS APÓS O CADASTRO**  |  **TELA COM A ÁREA DE ATUALIZAÇÃO DA PESSOA** |
 
 ### Status do Projeto
