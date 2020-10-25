@@ -45,7 +45,6 @@ class AgendaFragment : Fragment(), EasyPermissions.PermissionCallbacks {
     private val padding = 10
     private val rowspan = 2
     private val sizeFont = 20
-    private val colspan = 14
 
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
