@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Agenda Telefônica</string>
+    <string name="nome">Nome</string>
+    <string name="endereco">Endereço</string>
+    <string name="numero">Número</string>
+    <string name="bairro">Bairro</string>
+    <string name="email">E-mail</string>
+    <string name="telefone">Telefone</string>
+    <string name="cadastrar_pessoa">Cadastrar Pessoa</string>
+    <string name="atualizar_pessoa">Atualizar Pessoa</string>
+    <string name="nome_titulo">Nome:</string>
+    <string name="endereco_titulo">Endereço:</string>
+    <string name="numero_titulo">Número:</string>
+    <string name="bairro_titulo">Bairro:</string>
+    <string name="email2">E-mail:</string>
+    <string name="telefone2">Telefone:</string>
+    <string name="nenhuma_pessoa">Nenhuma Pessoa Cadastrada</string>
+    <string name="agenda_vazia">Agenda Vazia</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="excluir">Excluir</string>
+    <string name="search">Busca</string>
+    <string name="relatorio">Relatório</string>
+    <string name="todo">TODO</string>
+</resources>
