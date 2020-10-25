@@ -21,6 +21,18 @@ dependencies {
    
 }
 ```
+Inclua também no `Android Manifest`as seguintes linhas
+```xml
+ <provider
+      android:name="androidx.core.content.FileProvider"
+      android:authorities="chellotech.br.agendatelefonica.fileprovider"
+      android:exported="false"
+      android:grantUriPermissions="true">
+ <meta-data
+      android:name="android.support.FILE_PROVIDER_PATHS"
+      android:resource="@xml/provider_paths" />
+ </provider>
+```
 ### Telas do aplicativo 
 A figura abaixo mostra as principais telas do aplicativo
 | ![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/agenda_vazia.png)  |![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/cadastro_pessoas.png) |
