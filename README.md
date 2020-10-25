@@ -4,7 +4,7 @@
 > Este projeto tem como objetivo mostrar o funcionamento de um simples aplicativo feito com a linguagem Kotlin, e com funcionalidades básicas de um SGDB (Sistema Gerenciador de Banco de Dados) usando o banco de dados SQLite
 
 ### Instalação
-Inclua as seguintes dependências adicionando `build.gradle` aos arquivos:
+Inclua as seguintes dependências adicionando `build.gradle` aos arquivos e atualize o `Gradle`:
 
 ```groovy
 repositories {
@@ -13,13 +13,33 @@ repositories {
  }
  
 dependencies {
-    
     //Implementação das bibliotecas usadas neste projeto
     implementation 'com.github.santalu:mask-edittext:1.0.2'
     implementation 'com.itextpdf:itextg:5.5.10'
     implementation 'pub.devrel:easypermissions:3.0.0'
-   
 }
+```
+Inclua também no `Android Manifest`as seguintes linhas:
+```xml
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<!-- outras linhas -->
+ <provider
+      android:name="androidx.core.content.FileProvider"
+      android:authorities="nome do seu pacote.fileprovider"
+      android:exported="false"
+      android:grantUriPermissions="true">
+ <meta-data
+      android:name="android.support.FILE_PROVIDER_PATHS"
+      android:resource="@xml/provider_paths" />
+ </provider>
+```
+E por último crie um arquivo chamado `xml`e crie o seguinte arquivo:
+```xml
+<!-- Aqui o nome do arquivo é provider_paths -->
+<paths>
+    <external-path name="external_files" path="."/>
+</paths>
 ```
 ### Telas do aplicativo 
 A figura abaixo mostra as principais telas do aplicativo
