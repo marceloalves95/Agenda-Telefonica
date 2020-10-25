@@ -11,7 +11,7 @@ repositories {
      //Adicione essa linha aqui
      maven {url "https://jitpack.io"}
  }
-...    
+ 
 dependencies {
     
     //Implementação das bibliotecas usadas neste projeto
