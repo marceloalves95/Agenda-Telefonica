@@ -3,10 +3,20 @@
 #### Descrição do Projeto
 > Este projeto tem como objetivo mostrar o funcionamento de um simples aplicativo feito com a linguagem Kotlin, e com funcionalidades básicas de um SGDB (Sistema Gerenciador de Banco de Dados) usando o banco de dados SQLite
 
-# Implementações para o Projeto
+### Implementações para o Projeto
 * MaskEditText
 * ITextG
 * Easy Permissions
+
+'''kotlin
+dependencies {
+
+    implementation 'com.github.santalu:mask-edittext:1.0.2'
+    implementation 'com.itextpdf:itextg:5.5.10'
+    implementation 'pub.devrel:easypermissions:3.0.0'
+   
+}
+'''kotlin
 
 ### Telas do aplicativo 🚧
 A figura abaixo mostra as principais telas do aplicativo e as que estão em construção...🚧
