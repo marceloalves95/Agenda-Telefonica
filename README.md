@@ -3,7 +3,7 @@
 ### Descrição do Projeto
 > Este projeto tem como objetivo mostrar o funcionamento de um simples aplicativo feito com a linguagem Kotlin, e com funcionalidades básicas de um SGDB (Sistema Gerenciador de Banco de Dados) usando o banco de dados SQLite
 
-#### Instalação
+### Instalação
 EasyPermissions, ItextG e MaskEdiText é instalado adicionando a seguinte dependência `build.gradle` para o arquivo: 
 ```groovy
 dependencies {
