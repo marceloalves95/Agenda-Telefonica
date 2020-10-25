@@ -26,8 +26,8 @@ allprojects {
     }
 }
 ```
-### Telas do aplicativo 🚧
-A figura abaixo mostra as principais telas do aplicativo e as que estão em construção...🚧
+### Telas do aplicativo 
+A figura abaixo mostra as principais telas do aplicativo
 | ![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/agenda_vazia.png)  |![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/cadastro_pessoas.png) |
 |:---:|:---:|
 | **TELA INICIAL DO APLICATIVO** | **TELA COM A ÁREA DE CADASTRO DA PESSOA**  |
