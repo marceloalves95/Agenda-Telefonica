@@ -13,6 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
-/app/src/androidTest/java
-/app/src/test/java
+/app/src/androidTest/java/chellotech/br/agendatelefonica/ExampleInstrumentedTest.kt
+/app/src/test/java/chellotech/br/agendatelefonica/ExampleUnitTest.kt
 
