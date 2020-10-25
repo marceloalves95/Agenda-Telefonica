@@ -5,12 +5,12 @@
 
 ### Telas do aplicativo 🚧
 A figura abaixo mostra as principais telas do aplicativo e as que estão em construção...🚧
-| ![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/agenda_vazia.png)  |![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/cadastro.png)   |
+| ![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/agenda_vazia.png)  |![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/cadastro_pessoas.png)   |
 |:---:|:---:|
 | **TELA INICIAL DO APLICATIVO** | **TELA COM A ÁREA DE CADASTRO DA PESSOA**  |
-| ![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/atualizar.png)  |![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/atualizar.png)   |
+| ![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/atualizar_pessoas.png)  |![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/listar_pessoas.png)   |
 |:---:|:---:|
-| **TELA COM A ÁREA DE ATUALIZAÇÃO DA PESSOA** | **TELA COM A ÁREA DE CADASTRO DA PESSOA**  |
+| **TELA COM A ÁREA DE ATUALIZAÇÃO DA PESSOA** | **TELA COM A LISTA DE PESSOAS APÓS O CADASTRO**  |
 
 ### Status do Projeto
 
