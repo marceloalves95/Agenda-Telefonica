@@ -35,7 +35,7 @@ Inclua também no `Android Manifest`as seguintes linhas:
 ```
 E por último crie um arquivo chamado `xml`e crie o seguinte arquivo:
 ```xml
-<!--Aqui o nome do arquivo é provider_paths--!>
+<!-- Aqui o nome do arquivo é provider_paths -->
 <paths>
     <external-path name="external_files" path="."/>
 </paths>
