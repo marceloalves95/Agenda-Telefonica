@@ -8,6 +8,7 @@
 * ITextG
 * Easy Permissions
 
+'''groovy
 dependencies {
     
     implementation 'com.github.santalu:mask-edittext:1.0.2'
@@ -15,8 +16,7 @@ dependencies {
     implementation 'pub.devrel:easypermissions:3.0.0'
    
 }
-
-
+'''
 ### Telas do aplicativo 🚧
 A figura abaixo mostra as principais telas do aplicativo e as que estão em construção...🚧
 | ![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/agenda_vazia.png)  |![](/app/src/main/java/chellotech/br/agendatelefonica/screenshots/cadastro_pessoas.png)   |
