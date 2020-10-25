@@ -21,17 +21,24 @@ dependencies {
    
 }
 ```
-Inclua também no `Android Manifest`as seguintes linhas
+Inclua também no `Android Manifest`as seguintes linhas:
 ```xml
  <provider
       android:name="androidx.core.content.FileProvider"
-      android:authorities="chellotech.br.agendatelefonica.fileprovider"
+      android:authorities="nome do seu pacote.fileprovider"
       android:exported="false"
       android:grantUriPermissions="true">
  <meta-data
       android:name="android.support.FILE_PROVIDER_PATHS"
       android:resource="@xml/provider_paths" />
  </provider>
+```
+E por último crie um arquivo chamado `xml`e crie o seguinte arquivo:
+```xml
+<!--Aqui o nome do arquivo é provider_paths--!>
+<paths>
+    <external-path name="external_files" path="."/>
+</paths>
 ```
 ### Telas do aplicativo 
 A figura abaixo mostra as principais telas do aplicativo
